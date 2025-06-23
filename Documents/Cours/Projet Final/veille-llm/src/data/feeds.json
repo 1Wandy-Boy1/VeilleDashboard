@@ -1,0 +1,29 @@
+[
+    {
+      "id": "cert-fr",
+      "name": "CERT-FR Alertes RSS",
+      "url": "https://www.cert.ssi.gouv.fr/feed/",
+      "type": "rss",
+      "theme": "Vulnérabilités",
+      "enabled": true,
+      "addedAt": "2024-03-28"
+    },
+    {
+      "id": "arxiv-llm",
+      "name": "Arxiv - LLM Security",
+      "url": "https://export.arxiv.org/rss/cs.CR",
+      "type": "rss",
+      "theme": "LLM",
+      "enabled": true,
+      "addedAt": "2024-03-29"
+    },
+    {
+      "id": "cnil",
+      "name": "CNIL - Actualités IA",
+      "url": "https://www.cnil.fr/fr/actualites/feed",
+      "type": "rss",
+      "theme": "Règlementaire",
+      "enabled": false,
+      "addedAt": "2024-03-30"
+    }
+  ]

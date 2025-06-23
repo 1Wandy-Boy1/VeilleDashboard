@@ -1,0 +1,24 @@
+[
+    {
+      "id": "1",
+      "title": "Nouvelle vulnérabilité LLM détectée",
+      "source": "CERT-FR",
+      "url": "https://www.cert.ssi.gouv.fr/alerte/llm-01",
+      "theme": "LLM",
+      "date": "2024-03-30",
+      "tags": ["prompt injection", "openai"],
+      "summary": "Une faille critique dans le traitement des prompts a été découverte...",
+      "isFavorite": false
+    },
+    {
+      "id": "2",
+      "title": "Mise à jour des bonnes pratiques CNIL pour l’IA",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/ia/guide",
+      "theme": "Règlementaire",
+      "date": "2024-03-29",
+      "tags": ["rgpd", "ia", "conformité"],
+      "isFavorite": true
+    }
+  ]
+  

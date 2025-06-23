@@ -1,0 +1,37 @@
+veille-llm/
+├── public/
+│   └── logo.svg (ou favicon.ico, etc.)
+│
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx              ← Layout global (Header/Menu/Theme)
+│   │   ├── page.tsx                ← Page d’accueil `/`
+│   │   ├── sources/page.tsx        ← Page /sources
+│   │   ├── favoris/page.tsx        ← Page /favoris
+│   │   ├── parametres/page.tsx     ← Page /parametres
+│   │   └── globals.css             ← Styles globaux (tailwind)
+│   │
+│   ├── components/                 ← Tes composants réutilisables
+│   │   ├── ui/                     ← Composants shadcn (auto-générés)
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   └── ...
+│   │   ├── Header.tsx             ← Barre de navigation
+│   │   ├── ArticleCard.tsx        ← Composant carte d’article
+│   │   ├── ArticleDetails.tsx     ← Composant panneau latéral
+│   │   └── Filters.tsx            ← Filtres thématiques/date/source
+│   │
+│   ├── lib/                        ← Fonctions utilitaires (ex : fetch RSS)
+│   │   └── rssFetcher.ts
+│   │
+│   ├── types/                      ← Types TypeScript personnalisés
+│   │   └── article.ts              ← Type Article (title, source, tags, date)
+│   │
+│   └── data/                       ← Données statiques (par défaut)
+│       └── feeds.json              ← Liste initiale de flux RSS/API
+│
+├── tailwind.config.js
+├── postcss.config.js
+├── tsconfig.json
+├── package.json
+└── README.md
